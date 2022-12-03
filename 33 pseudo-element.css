@@ -1,0 +1,14 @@
+p::first-line{
+    font-size: 35px;
+    color: red;
+}
+h1::before{
+    content: "Hello";
+}
+h1::after{
+    content: "Bye";
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}

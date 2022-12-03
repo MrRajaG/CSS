@@ -1,0 +1,19 @@
+html{
+    font-size: 40px;
+}
+#parent{
+    /* border: 1px solid red;
+    width: 50vh;
+    height: 50vh; */
+
+    font-size: 30px;
+}
+#child{
+    /* border: 3px solid blue;
+    width: 50%;
+    height: 50%; */
+
+    /* font-size: 2em; */
+
+    font-size: 0.5rem;
+}

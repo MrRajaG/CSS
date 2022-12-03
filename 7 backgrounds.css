@@ -1,0 +1,8 @@
+#bg{
+    background-color: yellow;
+    background-image: url("Images/Four.jpg"), url("Images/Five.jpg");
+    background-repeat: no-repeat;
+    background-position: 50px 100px, 50px 500px;
+    background-size: 480px 280px;
+    /* background-attachment: fixed; */
+}

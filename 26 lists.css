@@ -1,0 +1,15 @@
+ul{
+    /* list-style-type: disc; */
+    /* (none, disc, circle, square) */
+
+    list-style-image: url('Images/One.jpg');
+}
+ol{
+    list-style-type: lower-alpha;
+    /* (lower-alpha, upper-alpha, lower-roman, upper-roman, decimal
+    decimal-leading-zero) */
+}
+li{
+    border: 1px solid black;
+    list-style-position: inside;
+}

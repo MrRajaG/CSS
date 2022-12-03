@@ -1,0 +1,10 @@
+/* Most specific will be used */
+p{
+    color: green;
+}
+.red{
+    color: red;
+}
+div .red{
+    color: blue;
+}

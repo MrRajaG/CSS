@@ -1,0 +1,31 @@
+/* block:
+div, p, h1-h6, form
+1. Start from new line
+2. Full width
+3. Height and Width */
+
+/* inline:
+a, img, span
+1. Not new start
+2. No full width
+3. No height and width */
+
+/* inline-block
+1. Not new start
+2. No full width
+3. Height and Width */
+
+/* none
+Hides the element */
+
+.display{
+    border: 1px solid red;
+    width: 50%;
+    height: 100px;
+
+    display: inline-block;
+}
+#div1{
+    /* display: none; */
+    visibility: hidden;
+}

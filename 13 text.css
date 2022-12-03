@@ -1,0 +1,41 @@
+#text{
+    width: 500;
+    border: 1px solid black;
+    
+    /* color: blueviolet;
+    text-align: justify; */
+
+    /* direction: rtl; */
+
+    /* text-decoration: line-through;
+    underline, overline, line-through */
+
+    /* text-transform: capitalize;
+    uppercase, lowercase, capitalize */
+
+    /* line-height: 30px; */
+
+    /* text-indent: 50px; */
+
+    /* letter-spacing: 5px; */
+
+    /* word-spacing: 10px; */
+
+    /* white-space: pre;
+    pre, nowrap */
+
+    /* word-wrap: break-word; */
+
+    /* writing-mode: vertical-rl; */
+}
+
+/* img{
+    width: 200px;
+    vertical-align: middle;
+} */
+
+/* #shadow{
+    font-size: 70px;
+    text-shadow: 5px 10px 5px red;
+    (horizontal, vertical, blur, color)
+} */

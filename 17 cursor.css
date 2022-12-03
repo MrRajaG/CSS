@@ -1,0 +1,7 @@
+#parent{
+    border: 1px solid red;
+
+    cursor: all-scroll;
+    /* all-scroll, cell, col-resize, crosshair, e-resize, grab, help,
+    not-allowed, pointer, progress, wait, zoom-in, zoom-out */
+}

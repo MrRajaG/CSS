@@ -1,0 +1,38 @@
+/* Grid Columns: Vertical lines
+Grid Rows: Horizontal lines
+Grid Gaps: Space between rows and columns
+Grid Lines: Column lines and row lines */
+
+.grid-container{
+    background-color: indianred;
+    padding: 20px;
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
+.grid-item{
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+#one{
+    grid-area: header;
+}
+#two{
+    grid-area: menu;
+}
+#three{
+    grid-area: main;
+}
+#four{
+    grid-area: right;
+}
+#five{
+    grid-area: footer;
+}

@@ -1,0 +1,10 @@
+#parent{
+    border: 1px solid red;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 20px;
+
+    box-shadow: 10px 15px 15px 3px gray inset;
+    /* (x, y, blur, spread, color) */
+}

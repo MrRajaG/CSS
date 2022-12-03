@@ -1,0 +1,13 @@
+/* on image or video */
+/* maintain aspect ratio */
+
+img{
+    border: 1px solid red;
+    width: 500px;
+    height: 400px;
+
+    object-fit: contain;
+    /* (contain, fill, cover) */
+
+    object-position: top center;;
+}

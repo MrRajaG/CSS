@@ -1,0 +1,22 @@
+/* Space between one element and other elements */
+/* Margin collapses with each other */
+
+.div1{
+    border: 1px solid red;
+}
+
+body{
+    border: 5px dotted black;
+}
+
+#marg2{
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px; */
+
+    /* margin: 50px 20px 50px 20px; */
+
+    width: 200px;
+    margin: 20px auto;
+}

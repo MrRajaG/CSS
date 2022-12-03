@@ -1,0 +1,12 @@
+#cover{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) translate3d(0px, 0px, 50px);
+}

@@ -1,0 +1,41 @@
+/* 1. Static (Default)
+2. Relative (From its own poition)
+3. Fixed
+4. Absolute (From Positioned Parent)
+
+
+1. Top
+2. Bottom
+3. Right
+4. Left */
+
+body{
+    height: 1000px;
+}
+
+#parent{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+}
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+}
+#two{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}

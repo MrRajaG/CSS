@@ -1,0 +1,15 @@
+#border{
+    border-style: solid dashed;
+    /* dotted, dashed, double, groove, ridge, outset, inset */
+
+    border-width: 5px;
+    border-color: red;
+
+    /* border: 5px solid red; */
+
+    /* border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: yellow; */
+
+    border-radius: 10px 20px 30px 5px;
+}

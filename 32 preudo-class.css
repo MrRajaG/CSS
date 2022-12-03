@@ -1,0 +1,12 @@
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: green;
+}
+li:nth-child(even){
+    color: purple;
+}
+input:focus{
+    border: 3px solid red;
+}

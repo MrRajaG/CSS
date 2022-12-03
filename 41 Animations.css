@@ -1,0 +1,31 @@
+@keyframes changecolor{
+    0% {background-color: red;}
+    25% {background-color: limegreen;}
+    50% {background-color: yellow; width: 400px;}
+    75% {background-color: limegreen;}
+    100% {background-color: blue;}
+}
+
+#div1{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 2s; */
+}
+#div2{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-out;
+}

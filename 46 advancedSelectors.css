@@ -1,0 +1,60 @@
+/* 1. Type selector
+
+h1{
+    color: red;
+} */
+
+/* 2. ID selector
+
+#div1{
+    color: red;
+} */
+
+/* 3. Class selector
+.div1{
+    color: red;
+} */
+
+/* 4. Pseudo class and Pseudo element
+a:hover{
+    color: red;
+}
+p::first-line{
+    color: red;
+} */
+
+/* 5. Attribute selector
+a[href="https://example.com"]{
+    color: red;
+} */
+
+/* 6. Universla selector
+*{
+    color: red;
+} */
+
+/* 7. Combinator selector
+(child at any state)
+.div1 span{
+    color: red;
+}
+
+(direct child)
+.div1>span{
+    color: red;
+}
+
+(right after sibling)
+.div1+h1{
+    color: red;
+}
+
+(general sibling)
+.div1~h1{
+    color: red;
+} */
+
+/* 9. Add selector
+.div1, h1{
+    color: red;
+} */
